@@ -1,0 +1,25 @@
+{
+  "created_at": "2025-12-29T16:59:48.095509Z",
+  "input_path": "hotel_bookings_raw\\hotel_bookings.csv",
+  "output_dir": "preprocessing\\hotel_bookings_preprocessing",
+  "rows": 119390,
+  "cols_after_drop": 30,
+  "dropped_leakage_cols": [
+    "reservation_status",
+    "reservation_status_date"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "train_shape": [
+    95512,
+    252
+  ],
+  "test_shape": [
+    23878,
+    252
+  ],
+  "target_distribution": {
+    "0": 0.6295837172292487,
+    "1": 0.37041628277075134
+  }
+}

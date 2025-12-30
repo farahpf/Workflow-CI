@@ -1,0 +1,10 @@
+﻿name: hotelbookings-cancellation-ci
+
+env_manager: local
+
+entry_points:
+  main:
+    parameters:
+      data_dir: {type: path}
+    command: >
+      python modelling.py --data_dir {data_dir}

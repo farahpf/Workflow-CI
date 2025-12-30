@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 1500,
+    "penalty": "l2",
+    "solver": "saga"
+  },
+  "best_metrics": {
+    "acc": 0.8099505821258062,
+    "prec": 0.7282942860171737,
+    "rec": 0.7767100056529113,
+    "f1": 0.7517233833023307,
+    "auc": 0.8963807717989332
+  },
+  "selection_score": 0.7517233833023307
+}
